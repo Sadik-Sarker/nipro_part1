@@ -1,0 +1,251 @@
+/* fonts start here */
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/roboto-regular/Roboto-Regular.ttf);
+  /* font-weight: 400; */
+}
+@font-face {
+  font-family: Roboto-Medium;
+  src: url(../fonts/roboto-medium/Roboto-Medium.ttf);
+  /* font-weight: 500; */
+}
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/lato-regular/Lato-Regular.ttf);
+  /* font-weight: 400; */
+}
+@font-face {
+  font-family: Lato-Medium;
+  src: url(../fonts/Lato-Medium/Lato-Medium.ttf);
+  /* font-weight: 500; */
+}
+@font-face {
+  font-family: Lato-Semibold;
+  src: url(../fonts/lato-Semibold/Lato-Semibold.ttf);
+  /* font-weight: 600; */
+}
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/lato-bold/Lato-Bold.ttf);
+  /* font-weight: 700; */
+}
+/* fonts end here */
+/* common css start */
+body {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8e8e8e;
+}
+/* common css end */
+/* header start */
+header {
+  background-color: #fff;
+}
+.logo {
+  font-family: Lato-Medium;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.menu {
+}
+.menu ul li a {
+  font-family: Lato-Regular;
+  color: #8e8e8e !important;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+.menu ul li a:hover {
+  color: #333333 !important;
+}
+.nav_search {
+}
+.btn-search {
+  color: #8e8e8e;
+}
+.btn-search:focus {
+  box-shadow: none;
+}
+.btn-search:hover {
+  color: #333333;
+}
+.btn-search i {
+}
+.c_dd_menu {
+  min-width: 400px;
+  padding: 5px 5px;
+}
+.c_dd_menu[data-bs-popper] {
+  top: 60px;
+  left: -350px;
+}
+/* header end */
+/* banner or slider start */
+.slider {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+.s_1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.s_1 h1 {
+  color: #fff;
+  font-family: Lato-Bold;
+  font-size: 59px;
+}
+.s_1 p {
+  color: #fff;
+  margin: 40px 0 50px !important;
+  padding-right: 2%;
+  line-height: 30px;
+}
+.btn-banner {
+  color: #333333;
+  background-color: #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 35px;
+  border-radius: 0;
+}
+.btn-banner span {
+  margin-left: 15px;
+}
+.btn-banner:hover {
+  color: #8e8e8e;
+}
+.btn-banner:focus {
+  box-shadow: none;
+}
+.ccp,
+.ccn {
+  align-items: flex-end;
+  top: 90%;
+}
+.ccp span,
+.ccn span {
+  background-image: none;
+}
+.ccp {
+  color: #8e8e8e;
+}
+.ccp:hover {
+  color: #333333;
+}
+.ccn {
+  color: #8e8e8e;
+  left: 70px;
+}
+.ccn:hover {
+  color: #333333;
+}
+/* banner or slider end */
+/* service start */
+.service {
+}
+.c_title {
+}
+.t_arrow {
+  width: 1px;
+  height: 50px;
+  background-color: black;
+  display: inline-block;
+}
+.service_row2_mtb {
+  margin-top: 30px;
+  margin-bottom: 130px;
+}
+.s_service {
+  text-align: center;
+  padding: 70px 10px 40px;
+  border: 1px solid #8e8e8e;
+}
+.s_icon {
+  width: 70px;
+  margin: 0 auto;
+  margin-top: -95px;
+  background-color: #fff;
+}
+.s_icon i {
+  font-size: 60px;
+}
+.s_service h2 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: Lato-Bold;
+  font-weight: 700;
+  color: #333333;
+  font-size: 18px;
+  margin-top: 30px;
+}
+.s_service p {
+  margin-bottom: 20px;
+}
+.service_span {
+  width: 50px;
+  height: 1px;
+  background-color: #8e8e8e;
+  display: block;
+  margin: 20px auto;
+}
+.s_service a {
+  text-transform: uppercase;
+  color: #8e8e8e;
+  font-family: Roboto-Medium;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 10px 10px;
+}
+.s_service:hover {
+  cursor: pointer;
+  border: 1px solid #333333;
+}
+.s_service:hover .service_span {
+  background-color: #333333;
+}
+.s_service:hover a {
+  color: #333333;
+}
+.s_service:hover h2,
+.s_service:hover p,
+.s_service:hover .s_icon i {
+  color: #333333;
+}
+/* service end */
+/* about start */
+.about {
+  margin: 100px 0;
+}
+.a_text_wrapper h1 {
+  font-family: Lato-Regular;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.a_text_wrapper p {
+  margin-bottom: 35px;
+}
+.a_text_wrapper {
+}
+.a_text_wrapper .btn-banner {
+  border: 1px solid #333333;
+}
+.a_text_wrapper .btn-banner:hover {
+  color: #8e8e8e;
+  border: 1px solid #8e8e8e;
+}
+/* about end */
